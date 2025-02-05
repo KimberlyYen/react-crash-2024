@@ -4,7 +4,8 @@
 // import CountAgain from "./CountAgain"
 // import Count from "./Count"
 // import CountTwo from "./CountTwo"
-import Input from "./Input"
+// import Input from "./Input"
+import PickUpColor from "./PickUpColor"
 
 const App = () => {
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <Count /> */}
       {/* <hr /> */}
       {/* <CountTwo /> */}
-      <Input />
+      {/* <Input /> */}
+      <PickUpColor />
     </div>
   )
 }
