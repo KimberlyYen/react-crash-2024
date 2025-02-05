@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+h1 {
+    font-size: 2rem;
+}
+
+button {
+    background-color: rgb(42, 141, 199);
+    margin: 2px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.countNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+input ,textarea, select {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+select {
+    width: 200px;
+}
