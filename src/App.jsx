@@ -5,7 +5,8 @@
 // import Count from "./Count"
 // import CountTwo from "./CountTwo"
 // import Input from "./Input"
-import PickUpColor from "./PickUpColor"
+// import PickUpColor from "./PickUpColor"
+import MyComponents from "./MyComponents"
 
 const App = () => {
 
@@ -18,7 +19,8 @@ const App = () => {
       {/* <hr /> */}
       {/* <CountTwo /> */}
       {/* <Input /> */}
-      <PickUpColor />
+      {/* <PickUpColor /> */}
+      <MyComponents />
     </div>
   )
 }
