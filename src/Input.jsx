@@ -6,6 +6,8 @@ const Input = () => {
   const [ number, setNumber ] = useState(1)
   const [ comment, setComment ] = useState('')
   const [ select, setSelect ] = useState('')
+  const [ shopping, setShopping ] = useState('')
+  
 
 
   const handleText = (e) => {
@@ -22,6 +24,10 @@ const Input = () => {
 
   const handleSelect = (e) => {
     setSelect(e.target.value)
+  }
+
+  const handleShipping = (e) => {
+    setShopping(e.target.value)
   }
 
   return (
@@ -43,6 +49,21 @@ const Input = () => {
             <option value="LINE PAY">LINE PAY</option>
         </select>
         <p>{select}</p>
+
+        <label htmlFor="" onChange={handleShipping}>
+            <input type="radio" value={'Pick Up'}
+            checked={shopping === 'Pick Up'}
+            /> Pick Up
+        </label>
+        <label htmlFor="" onChange={handleShipping}>
+        <input type="radio" value={'Delivery'}
+            checked={shopping === 'Delivery'}
+        /> Delivery
+        </label>
+
+        <p>
+            {shopping}
+        </p>
     </div>
   )
 }
