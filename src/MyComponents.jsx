@@ -5,15 +5,15 @@ const MyComponents = () => {
 
 
   function handleYear (e){
-    setCar({...car, year: e.target.value})
+    setCar(car => ({...car, year: e.target.value}))
   }
   
   function handleCar (e){
-    setCar({...car,car: e.target.value})
+    setCar(car => ({...car,car: e.target.value}))
   }
 
   function handleModal (e){
-    setCar({...car,modal: e.target.value})
+    setCar(car => ({...car,modal: e.target.value}))
   }
 
   return (

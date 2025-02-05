@@ -6,7 +6,8 @@
 // import CountTwo from "./CountTwo"
 // import Input from "./Input"
 // import PickUpColor from "./PickUpColor"
-import MyComponents from "./MyComponents"
+// import MyComponents from "./MyComponents"
+import Array from "./Array"
 
 const App = () => {
 
@@ -20,7 +21,8 @@ const App = () => {
       {/* <CountTwo /> */}
       {/* <Input /> */}
       {/* <PickUpColor /> */}
-      <MyComponents />
+      {/* <MyComponents /> */}
+      <Array />
     </div>
   )
 }
