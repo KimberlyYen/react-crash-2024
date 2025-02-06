@@ -3,8 +3,6 @@ import { useState } from "react";
 const Array = () => {
 
     const [ food , setFood ] = useState(['apple','orange','pineapple','banana'])
-    // const food = ['apple','orange','pineapple','banana']
-
     const [newItem, setNewItem] = useState('');
 
     const handlePlus = () => {
@@ -13,6 +11,10 @@ const Array = () => {
             setNewItem('')
         }
     }
+
+    // const handleRemove = () => {
+    //     setFood([])
+    // }
 
   return (
     <div>
@@ -24,8 +26,9 @@ const Array = () => {
         value={newItem}
         onChange={(e) => setNewItem(e.target.value)}
         /> 
-              {newItem}
+        {newItem}
       <button onClick={handlePlus}>Plus</button>
+      {/* <button onClick={handleRemove}>Remove</button> */}
     </div>
   )
 }

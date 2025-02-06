@@ -7,7 +7,8 @@
 // import Input from "./Input"
 // import PickUpColor from "./PickUpColor"
 // import MyComponents from "./MyComponents"
-import Array from "./Array"
+// import Array from "./Array"
+import ArrayPlus from "./ArrayPlus"
 
 const App = () => {
 
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Input /> */}
       {/* <PickUpColor /> */}
       {/* <MyComponents /> */}
-      <Array />
+      {/* <Array /> */}
+      <ArrayPlus />
     </div>
   )
 }
