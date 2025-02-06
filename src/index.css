@@ -23,6 +23,10 @@ button {
     flex-direction: row;
 }
 
+.toDoListButtons {
+    margin-left: 2px;
+}
+
 input ,textarea, select {
     border: 1px solid black;
     margin: 10px;

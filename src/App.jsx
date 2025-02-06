@@ -9,7 +9,8 @@
 // import MyComponents from "./MyComponents"
 // import Array from "./Array"
 // import ArrayPlus from "./ArrayPlus"
-import UpdateArrayOfObject from "./UpdateArrayOfObject"
+// import UpdateArrayOfObject from "./UpdateArrayOfObject"
+import ToDoList from "./ToDoList"
 
 const App = () => {
 
@@ -26,7 +27,8 @@ const App = () => {
       {/* <MyComponents /> */}
       {/* <Array /> */}
       {/* <ArrayPlus /> */}
-      <UpdateArrayOfObject />
+      {/* <UpdateArrayOfObject /> */}
+      <ToDoList />
     </div>
   )
 }
