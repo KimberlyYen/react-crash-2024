@@ -44,3 +44,7 @@ select {
 body {
     height: 100vh;
 }
+
+.clock {
+    font-size: 6rem;
+}

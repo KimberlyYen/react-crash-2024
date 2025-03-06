@@ -10,11 +10,12 @@
 // import Array from "./Array"
 // import ArrayPlus from "./ArrayPlus"
 // import UpdateArrayOfObject from "./UpdateArrayOfObject"
-import ToDoList from "./ToDoList"
+// import ToDoList from "./ToDoList"
+// import UseEffect from "./UseEffect"
+// import ReSize from "./ReSize";
+import RealTimeClock from "./RealTimeClock";
 
 const App = () => {
-
-
   return (
     <div>
       {/* <CountAgain /> */}
@@ -28,9 +29,13 @@ const App = () => {
       {/* <Array /> */}
       {/* <ArrayPlus /> */}
       {/* <UpdateArrayOfObject /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      {/* <UseEffect /> */}
+      {/* <ReSize /> */}
+      <RealTimeClock/>
+      
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
