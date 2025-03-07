@@ -14,7 +14,9 @@
 // import UseEffect from "./UseEffect"
 // import ReSize from "./ReSize";
 // import RealTimeClock from "./RealTimeClock";
-import ComponentA from "./ComponentA";
+// import ComponentA from "./ComponentA";
+// import UseRefExample from "./UseRefExample";
+import StopWatch from "./StopWatch";
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
       {/* <UseEffect /> */}
       {/* <ReSize /> */}
       {/* <RealTimeClock/> */}
-      <ComponentA />
+      {/* <ComponentA /> */}
+      {/* <UseRefExample /> */}
+      <StopWatch />
     </div>
   );
 };
