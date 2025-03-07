@@ -13,7 +13,8 @@
 // import ToDoList from "./ToDoList"
 // import UseEffect from "./UseEffect"
 // import ReSize from "./ReSize";
-import RealTimeClock from "./RealTimeClock";
+// import RealTimeClock from "./RealTimeClock";
+import ComponentA from "./ComponentA";
 
 const App = () => {
   return (
@@ -32,8 +33,8 @@ const App = () => {
       {/* <ToDoList /> */}
       {/* <UseEffect /> */}
       {/* <ReSize /> */}
-      <RealTimeClock/>
-      
+      {/* <RealTimeClock/> */}
+      <ComponentA />
     </div>
   );
 };
